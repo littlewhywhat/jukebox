@@ -1,0 +1,10 @@
+@startuml
+
+class Greeter {
+  - myWhom: String
+  --
+  + greet(): String
+}
+
+hide Greeter circle 
+@enduml
